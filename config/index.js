@@ -86,18 +86,20 @@ export const config = {
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
-        // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
-      ]
+            // 考研日期
+        {"keyword": "ky_day", date: "2022-12-24"},
+        // 公考日期
+        {"keyword": "gk_day", date: "2022-12-19"},
+        // 法考报名
+        {"keyword": "fkbm_day", date: "2022-09-24"},
+        // 法考日期
+         {"keyword": "fk_day", date: "2022-10-16"},
+          ]
     },
     {
       name: "老婆1",
-      id: "oNCQI6GCvpy3TMw9wW5CTFnAiMh0",
-      useTemplateId: "7E_0ImTkpy6YHmM9Ziy3flOVH9ctAajsGTINBJ__vPc",
+      id: "",
+      useTemplateId: "",
       province: "",
       city: "",
       horoscopeDate: '',
@@ -160,9 +162,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "山东",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "济南",
 
   /** 重要节日相关 */
 
@@ -208,12 +210,14 @@ export const config = {
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
     * */
   CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
-    // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+    // 考研日期
+    {"keyword": "ky_day", date: "2022-12-24"},
+    // 公考日期
+    {"keyword": "gk_day", date: "2022-12-19"},
+    // 法考报名
+    {"keyword": "fkbm_day", date: "2022-09-24"},
+    // 法考日期
+     {"keyword": "fk_day", date: "2022-10-16"},
     // 你可以不断按格式往下增加
     // ...
   ],
