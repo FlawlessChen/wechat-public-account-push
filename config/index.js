@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNCQI6GCvpy3TMw9wW5CTFnAiMh0",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "5nJOkxro0KTaCb2cqODyOkjXNOf9_SYfKXtJ7F-dP9w",
+      useTemplateId: "Qb7UGL0nxTKERZkDwg-7-ltV97FbF-p9OBWti64VHXM",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -136,11 +136,11 @@ export const config = {
     },
     {
       // 想要发送的人的名字
-      name: "李晓琳",
+      name: "",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oNCQI6BvQPoTwVEzrYZb8-hW2vPA",
+      id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "MOJjFpFywRbQ4rco1AZiyQcOmo9uFeORZTnW-qlO13o",
+      useTemplateId: "",
       // 所在省份
       province: "山东",
       // 所在城市
