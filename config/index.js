@@ -62,13 +62,13 @@ export const config = {
       // 想要发送的人的名字
       name: "123",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oNCQI6GCvpy3TMw9wW5CTFnAiMh0",
+      id: "[oNCQI6GCvpy3TMw9wW5CTFnAiMh0,oNCQI6CWnA-kpdrgpby8jAYnIc1Y]",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "GdWw4yAZf3TdIwU3QA0lEltCPfqLyQ3W8rMkQdDN5uo",
+      useTemplateId: "plFZvAD01gdIVRADBNQyzrek8jNuvGc9WTs8Hsg8wPE",
       // 所在省份
       province: "山东",
       // 所在城市
-      city: "济南",
+      city: "德州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '02-28',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
