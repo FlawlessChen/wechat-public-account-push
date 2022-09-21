@@ -60,7 +60,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "我",
+      name: "1",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNCQI6GCvpy3TMw9wW5CTFnAiMh0",
       // 你想对他发送的模板消息的模板ID
@@ -77,28 +77,16 @@ export const config = {
       openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "考试", "name": "法考报名", "year": "2022", "date": "09-24"},
-        {"type": "考试", "name": "法考考试", "year": "2022", "date": "10-16"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
-            // 考研日期
-        {"keyword": "ky_day", date: "2022-12-24"},
         // 公考日期
         {"keyword": "gk_day", date: "2022-12-19"},
-        // 法考报名
-        {"keyword": "fkbm_day", date: "2022-09-24"},
-        // 法考日期
-         {"keyword": "fk_day", date: "2022-10-16"},
           ]
     },
     {
      // 想要发送的人的名字
-      name: "妹妹",
+      name: "1",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNCQI6CWnA-kpdrgpby8jAYnIc1Y",
       // 你想对他发送的模板消息的模板ID
@@ -115,28 +103,16 @@ export const config = {
       openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "考试", "name": "法考报名", "year": "2022", "date": "09-24"},
-        {"type": "考试", "name": "法考考试", "year": "2022", "date": "10-16"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
             // 考研日期
         {"keyword": "ky_day", date: "2022-12-24"},
-        // 公考日期
-        {"keyword": "gk_day", date: "2022-12-19"},
-        // 法考报名
-        {"keyword": "fkbm_day", date: "2022-09-24"},
-        // 法考日期
-         {"keyword": "fk_day", date: "2022-10-16"},
           ]
     },
     {
       // 想要发送的人的名字
-      name: "",
+      name: "1",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "",
       // 你想对他发送的模板消息的模板ID
@@ -153,19 +129,9 @@ export const config = {
       openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "考试", "name": "法考报名", "year": "2022", "date": "09-24"},
-        {"type": "考试", "name": "法考考试", "year": "2022", "date": "10-16"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
-            // 考研日期
-        {"keyword": "ky_day", date: "2022-12-24"},
-        // 公考日期
-        {"keyword": "gk_day", date: "2022-12-19"},
         // 法考报名
         {"keyword": "fkbm_day", date: "2022-09-24"},
         // 法考日期
@@ -173,7 +139,7 @@ export const config = {
           ]
     },
     {
-      name: "老婆3",
+      name: "1",
       id: "",
       useTemplateId: "",
       province: "",
